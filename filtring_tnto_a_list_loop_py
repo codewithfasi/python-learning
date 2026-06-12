@@ -1,0 +1,10 @@
+scores = [40, 75, 90, 55, 60, 20]
+passed_score = []
+failed_scores = []
+for score in scores:
+    if score >=60:
+        passed_score.append(score)
+    else:
+        failed_scores.append(score)
+print(passed_score)
+print(failed_scores)

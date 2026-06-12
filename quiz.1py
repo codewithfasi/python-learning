@@ -1,0 +1,24 @@
+name = "   aLI khan   "
+age = "17"
+marks = "82.5"
+email = "  ALI@GMAIL.COM "
+course = " python basics "
+students = ["Sara", "Omar", "Mona"]
+age = int(age)
+name = name.strip().title()
+marks = float(marks)
+email = email.strip().lower()
+course = course.strip().title()
+print(name)
+print(age)
+print(marks)
+print(email)
+print(course)
+if age >= 18 and marks >= 80:
+    print("Full approval")
+elif age < 18 and marks >= 80:
+    print("Underage but strong student")
+elif marks < 80:
+    print("Needs improvement")
+else:
+    print("Rejected")

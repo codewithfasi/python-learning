@@ -1,0 +1,16 @@
+files = [" CV.PDF ", "photo.jpg", " EMPTY ", " report.PDF", "notes.txt", " certificate.pdf "]
+pdf_files = []
+for file in files:
+    clean_file = file.strip().lower()
+    if clean_file == "empty":
+        continue
+    if not clean_file.endswith(".pdf"):
+        continue
+    pdf_files.append(clean_file)
+print(pdf_files)    
+
+
+
+
+
+
